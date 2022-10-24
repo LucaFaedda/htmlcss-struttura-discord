@@ -10,13 +10,12 @@ header{
     
 }
 
-.container{
+nav{
+    display: flex;
+    align-items: center;
+    height: 80px;
     max-width: 991px;
     margin: 0 auto;
-}
-
-nav{
-    background-color: orange;
 }
 
 .row{
@@ -31,14 +30,17 @@ nav{
 .col-logo{
     background-color: yellow;
     width: 25%;
+    height: 50px;
 }
 
 .list-item{
     background-color:white;
     width: 50%;
+    height: 50px;
 }
 
 .bottom-accedi{
     background-color: blue;
     width: 25%;
+    height: 50px;
 }
