@@ -6,8 +6,7 @@
 
 header{
     background-color: #ADD8E6;
-    height: 100px;
-    
+    min-height: 485px;
 }
 
 nav{
@@ -18,7 +17,7 @@ nav{
     margin: 0 auto;
 }
 
-.row{
+.row.bk-orange{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,4 +42,19 @@ nav{
     background-color: blue;
     width: 25%;
     height: 50px;
+}
+
+.row.bk-blue{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+.col.bk-pink{
+    width: 40%;
+    height: 300px;
+    background-color: pink;
 }
